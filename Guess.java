@@ -7,9 +7,11 @@ public class Guess {
 
         System.out.println("Tervettuloa arvauspeliin!");
         System.out.println("Arvaa nimeni");
-
+        // oikea nimi
         String correctName = "Matti";
+        // käyttäjä input
         String guess = "";
+
 
         do {
             
