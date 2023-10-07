@@ -5,12 +5,14 @@ public class Guess {
 
         Scanner in = new Scanner(System.in);
 
+        System.out.println("Tervettuloa arvauspeliin!");
+        System.out.println("Arvaa nimeni");
+        
         String correctName = "Matti";
         String guess = "";
 
-        System.out.println("Tervettuloa arvauspeliin!");
         do {
-            System.out.println("Arvaa nimeni");
+            
             guess = in.nextLine();
 
             if (guess.equalsIgnoreCase(correctName)) {
