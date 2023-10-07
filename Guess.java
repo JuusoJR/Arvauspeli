@@ -7,7 +7,7 @@ public class Guess {
 
         System.out.println("Tervettuloa arvauspeliin!");
         System.out.println("Arvaa nimeni");
-        
+
         String correctName = "Matti";
         String guess = "";
 
@@ -19,7 +19,10 @@ public class Guess {
 
                 System.out.println("Onneksi olkoon! Arvasit oikein");
 
-            } else {
+            } else if (guess.equals("")) {
+                System.out.println("Puhu kovempaa! En kuule!");
+            }
+             else {
                 System.out.println("Yritä uudestaan!");
             }
         } while (!guess.equalsIgnoreCase(correctName));
