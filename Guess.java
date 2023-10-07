@@ -8,6 +8,7 @@ public class Guess {
         String correctName = "Matti";
         String guess = "";
 
+        System.out.println("Tervettuloa arvauspeliin!");
         do {
             System.out.println("Arvaa nimeni");
             guess = in.nextLine();
